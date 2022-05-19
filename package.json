@@ -1,0 +1,18 @@
+{
+  "name": "test_exercise",
+  "version": "1.0.0",
+  "description": "test exercise for Pecode company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bohdan Strukov",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.1.0",
+    "mochawesome": "^7.1.3"
+  }
+}

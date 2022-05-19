@@ -1,0 +1,19 @@
+{
+    "viewportWidth": 1400,
+    "viewportHeight": 900, 
+    "watchForFileChanges": true,
+    "waitForAnimations": true,
+    "defaultCommandTimeout": 8000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 15000,
+    "responseTimeout": 15000,
+    "video": true,
+    "screenshotOnRunFailure": true,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "custom-title"
+      }
+}
