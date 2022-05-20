@@ -15,5 +15,16 @@
         "reportDir": "cypress/report",
         "charts": true,
         "reportPageTitle": "custom-title"
+      },
+
+    "env": {
+      "baseUrl" : "https://www.pecodesoftware.com/qa-portal/greet.php",
+      "invalidUser": {
+          "username": "invalid login",
+          "password": "invalid password"
+      },
+      "errors" : {
+          "invalidLoginMessage" : "No account found with that username."
       }
+  }
 }
